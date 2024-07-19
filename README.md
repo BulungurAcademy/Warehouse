@@ -2,7 +2,8 @@
 
 This document describes the database schema used in our Order Management System. The schema is visualized in the provided ER diagram.
 
-![ER Diagram](path/to/your/image.png)
+![image](https://github.com/user-attachments/assets/dcea2b56-1f54-4ae4-9ac1-08b1548eee05)
+
 
 ## Table Descriptions
 

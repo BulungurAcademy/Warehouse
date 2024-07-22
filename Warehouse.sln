@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34929.205
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseApi", "src\WarehouseApi\WarehouseApi.csproj", "{96D4F8D8-7237-427B-8FD6-B296CE264420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Api", "src\WarehouseApi\Warehouse.Api.csproj", "{96D4F8D8-7237-427B-8FD6-B296CE264420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseDomain", "src\WarehouseDomain\WarehouseDomain.csproj", "{F3FA5A62-3B11-4845-952C-D26059815EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Domain", "src\WarehouseDomain\Warehouse.Domain.csproj", "{F3FA5A62-3B11-4845-952C-D26059815EF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@ namespace WH.Domain.Models
     /// warehouse
     /// </summary>
     [Table("warehouse")]
-    public class WH : ModelBaseName<long>
+    public class Warehouse : ModelBaseName<long>
     {
         public Point Location { get; set; } = default!;
     }

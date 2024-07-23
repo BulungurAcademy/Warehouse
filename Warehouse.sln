@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34929.205
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WH.Api", "src\WH.Api\WH.Api.csproj", "{96D4F8D8-7237-427B-8FD6-B296CE264420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wh.Api", "src\Wh.Api\Wh.Api.csproj", "{96D4F8D8-7237-427B-8FD6-B296CE264420}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WH.Domain", "src\WH.Domain\WH.Domain.csproj", "{F3FA5A62-3B11-4845-952C-D26059815EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wh.Domain", "src\Wh.Domain\Wh.Domain.csproj", "{F3FA5A62-3B11-4845-952C-D26059815EF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

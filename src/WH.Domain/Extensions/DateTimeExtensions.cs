@@ -1,4 +1,4 @@
-namespace WHDomain.Extensions;
+namespace WhDomain.Extensions;
 
 public static class DateTimeExtensions
 {

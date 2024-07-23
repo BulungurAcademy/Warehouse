@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WH.Domain.Models
+namespace Wh.Domain.Models
 {
     /// <summary>
     ///  Information about the suppliers who provide the products.

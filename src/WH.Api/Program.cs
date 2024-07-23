@@ -6,7 +6,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo() { Title = "WH", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo() { Title = "Wh", Version = "v1" });
 });
 var app = builder.Build();
 if (!app.Environment.IsProduction())

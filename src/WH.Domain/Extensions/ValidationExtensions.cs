@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
-namespace WH.Domain.Extensions
+namespace Wh.Domain.Extensions
 {
     public static class ValidationExtensions
     {

@@ -1,10 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using WHDomain.Models;
+using WhDomain.Models;
 
-namespace WH.Domain.Models
+namespace Wh.Domain.Models
 {
     /// <summary>
-    /// Inventory records the quantity of Products in WHs.
+    /// Inventory records the quantity of Products in Whs.
     /// </summary>
     [Table("inventory")]
     public class Inventory : AuditableModelBase<long>

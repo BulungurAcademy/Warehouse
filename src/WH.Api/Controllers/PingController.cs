@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WHApi.Controllers
+namespace WhApi.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]

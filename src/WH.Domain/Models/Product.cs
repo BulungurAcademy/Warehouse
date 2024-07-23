@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using WH.Domain.Models;
+using Wh.Domain.Models;
 
-namespace WHDomain.Models
+namespace WhDomain.Models
 {
     /// <summary>
     /// Information about the products stored in the warehouse.

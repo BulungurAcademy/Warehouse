@@ -1,9 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
-namespace Warehouse.Domain.Extensions
+namespace WH.Domain.Extensions
 {
     public static class ValidationExtensions
     {

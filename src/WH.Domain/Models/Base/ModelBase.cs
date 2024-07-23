@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Warehouse.Domain.Models
+namespace WH.Domain.Models
 {
     public abstract class ModelBaseId<TId> where TId : struct
     {

@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WarehouseApi.Controllers
+namespace WHApi.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]

@@ -1,12 +1,26 @@
-﻿namespace Warehouse.Domain.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Warehouse.Domain.Models
 {
-    public class Supplier : AuditableModelBase<long>
+    /// <summary>
+    ///  Information about the suppliers who provide the products.
+    /// </summary>
+    [Table("supplier")]
+    public class Supplier : ModelBaseName<long>
     {
-        public string Name { get; set; }
-        public string ContractName { get; set; }
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string PostalCode { get; set; }
-        public string Country { get; set; }
+        [Column("contract_name")]
+        public string ContractName { get; set; } = default!;
+
+        [Column("address")]
+        public string Address { get; set; } = default!;
+
+        [Column("city")]
+        public string? City { get; set; }
+
+        [Column("postal_code")]
+        public string? PostalCode { get; set; }
+
+        [Column("country")]
+        public string? Country { get; set; }
     }
 }

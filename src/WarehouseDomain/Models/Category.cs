@@ -1,6 +1,14 @@
-﻿namespace Warehouse.Domain.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Warehouse.Domain.Models
 {
-    public class Category : AuditableModelBase<long>
+    /// <summary>
+    /// Product categories to organize products.
+    /// </summary>
+    [Table("category")]
+    public class Category : ModelBaseName<long>
     {
+        [Column("description")]
+        public string Description { get; set; } = default!;
     }
 }

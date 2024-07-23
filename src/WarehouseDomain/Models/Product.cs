@@ -3,11 +3,12 @@ using Warehouse.Domain.Models;
 
 namespace WarehouseDomain.Models
 {
-    public class Product : AuditableModelBase<long>
+    /// <summary>
+    /// Information about the products stored in the warehouse.
+    /// </summary>
+    [Table("product")]
+    public class Product : ModelBaseName<long>
     {
-        [Column("name")]
-        public string Name { get; set; } = default!;
-
         [Column("category_id"), ForeignKey(nameof(Category))]
         public long CategoryId { get; set; }
         public virtual Category Category { get; set; } = default!;

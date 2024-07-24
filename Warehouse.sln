@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34929.205
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wh.Api", "src\Wh.Api\Wh.Api.csproj", "{96D4F8D8-7237-427B-8FD6-B296CE264420}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wh.Domain", "src\Wh.Domain\Wh.Domain.csproj", "{F3FA5A62-3B11-4845-952C-D26059815EF4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wh.AppHost", "src\Wh.AppHost\Wh.AppHost.csproj", "{317A65CC-B0BE-4D63-89A4-9D862B5225CA}"
@@ -29,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96D4F8D8-7237-427B-8FD6-B296CE264420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96D4F8D8-7237-427B-8FD6-B296CE264420}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96D4F8D8-7237-427B-8FD6-B296CE264420}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96D4F8D8-7237-427B-8FD6-B296CE264420}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3FA5A62-3B11-4845-952C-D26059815EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3FA5A62-3B11-4845-952C-D26059815EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3FA5A62-3B11-4845-952C-D26059815EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,7 +52,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{96D4F8D8-7237-427B-8FD6-B296CE264420} = {4D375537-3529-4A6A-AEED-D02A1A72B2E2}
 		{F3FA5A62-3B11-4845-952C-D26059815EF4} = {7324CB7D-CEB6-46DF-B05E-6B11578AD011}
 		{317A65CC-B0BE-4D63-89A4-9D862B5225CA} = {4D375537-3529-4A6A-AEED-D02A1A72B2E2}
 		{FEB6D944-1DF0-461E-AA7B-A74B1C2C996B} = {4D375537-3529-4A6A-AEED-D02A1A72B2E2}

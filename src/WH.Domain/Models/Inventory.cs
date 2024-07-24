@@ -7,7 +7,7 @@ namespace Wh.Domain.Models
     /// Inventory records the quantity of Products in Whs.
     /// </summary>
     [Table("inventory")]
-    public class Inventory : AuditableModelBase<long>
+    public class Inventory
     {
         [Column("warehouse_id"), ForeignKey(nameof(Warehouse))]
         public long WarehouseId { get; set; }

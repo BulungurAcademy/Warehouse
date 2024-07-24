@@ -6,7 +6,7 @@ namespace Wh.Domain.Models
     ///  Information about the suppliers who provide the products.
     /// </summary>
     [Table("supplier")]
-    public class Supplier : ModelBaseName<long>
+    public class Supplier
     {
         [Column("contract_name")]
         public string ContractName { get; set; } = default!;

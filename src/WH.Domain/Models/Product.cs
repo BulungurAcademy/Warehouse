@@ -7,7 +7,7 @@ namespace WhDomain.Models
     /// Information about the products stored in the warehouse.
     /// </summary>
     [Table("product")]
-    public class Product : ModelBaseName<long>
+    public class Product
     {
         [Column("category_id"), ForeignKey(nameof(Category))]
         public long CategoryId { get; set; }

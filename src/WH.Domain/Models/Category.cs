@@ -6,7 +6,7 @@ namespace Wh.Domain.Models
     /// Product categories to organize products.
     /// </summary>
     [Table("category")]
-    public class Category : ModelBaseName<long>
+    public class Category
     {
         [Column("description")]
         public string Description { get; set; } = default!;

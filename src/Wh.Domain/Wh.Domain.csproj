@@ -20,4 +20,9 @@
     <ProjectReference Include="..\..\..\Adm\Adm.Core\Adm.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Ref\" />
+    <Folder Include="Models\Sys\" />
+  </ItemGroup>
+
 </Project>

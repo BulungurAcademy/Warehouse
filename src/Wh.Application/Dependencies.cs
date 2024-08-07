@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Wh.Application.Db;
@@ -19,6 +18,14 @@ namespace Wh.Application
                     sqlServerOptions.EnableRetryOnFailure();
                 });
             });
+
+            return services;
+        }
+
+        public static IServiceCollection ConfiguredServices(this IServiceCollection services)
+        {
+
+
 
             return services;
         }

@@ -18,4 +18,10 @@
     <ProjectReference Include="..\Wh.Domain\Wh.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Cmp\Dto\" />
+    <Folder Include="Services\Cmp\Implements\" />
+    <Folder Include="Services\Cmp\Interfaces\" />
+  </ItemGroup>
+
 </Project>
